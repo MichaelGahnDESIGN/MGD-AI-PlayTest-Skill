@@ -80,8 +80,11 @@ Der Agent fragt zuerst die wichtigsten Testdaten ab:
 - Welche Funktionen gehören in die Checkliste?
 - Welche Risiken gibt es bei Live-Tests?
 - Wie werden Testdaten am Ende zurückgebaut?
+- Welche Zusatzwerkzeuge sind vorhanden und dürfen genutzt werden?
 
 Dann legt der Agent einen lokalen Play-Test-Ordner an und protokolliert alles dort.
+
+Vor dem Test prüft der Skill außerdem, ob passende Zusatzwerkzeuge vorhanden sind, zum Beispiel Superpowers-Skills, Playwright/Browser-Tools, Caveman-Skills, Sub-Agent-/Multi-Agent-Funktionen, DEV-/Deploy-Skills oder MCP-Server. Der Agent soll sie nicht einfach still nutzen, sondern kurz fragen, welche davon erlaubt sind.
 
 ## Ordnerstruktur
 

@@ -37,6 +37,39 @@ Frage nur, was nicht aus dem Kontext hervorgeht. Kläre kurz:
 
 Wenn der Nutzer bereits genug liefert, starte direkt.
 
+## Zusatzwerkzeuge prüfen
+
+Prüfe vor der eigentlichen Durchführung, ob hilfreiche Zusatzwerkzeuge vorhanden sind. Nutze die jeweilige Umgebung, ohne etwas zu installieren oder zu aktivieren, was nicht vorhanden ist.
+
+Prüfe besonders:
+
+- Superpowers-Skills oder vergleichbare Prozess-Skills für Planung, Debugging, TDD, Code Review oder Verifikation.
+- Playwright, Browser-Plugin, Browser-Tools oder vorhandene E2E-Testframeworks.
+- Caveman-Skills oder andere Kompaktkommunikations-Skills.
+- Sub-Agent-, Multi-Agent- oder Cowork-Funktionen.
+- Projektinterne DEV-/Deploy-/Backup-Skills oder Runbooks.
+- MCP-Server oder Connectoren, die für Browser, GitHub, Projektkoordination, Testdaten oder Dokumentation sinnvoll sind.
+
+Wenn etwas vorhanden und passend ist, frage den Nutzer vor der Nutzung kurz um Erlaubnis, außer er hat es bereits ausdrücklich angefordert.
+
+Beispiel:
+
+```text
+Ich habe Playwright, Superpowers und einen DEV-/Deploy-Skill gefunden. Darf ich sie für diesen Play-Test nutzen?
+- Playwright: Browser-Test und Screenshots
+- Superpowers: strukturierte Planung und Verifikation
+- DEV-/Deploy-Skill: Backup und Live-Rückbau
+```
+
+Wenn der Nutzer nicht antwortet und keine riskante Aktion nötig ist, nutze nur sichere Standardwerkzeuge. Für Live-Schreibtests, externe Aktionen, Deployments, Backups oder Sub-Agenten warte auf Freigabe.
+
+Dokumentiere im Play-Test-Protokoll:
+
+- welche Zusatzwerkzeuge gefunden wurden,
+- welche davon erlaubt wurden,
+- welche nicht genutzt wurden,
+- warum.
+
 ## Ordner anlegen
 
 Bevorzuge das Script:

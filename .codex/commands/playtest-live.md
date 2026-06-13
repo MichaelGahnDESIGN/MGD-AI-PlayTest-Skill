@@ -14,6 +14,9 @@ Nutze `SKILL.md` aus diesem Repository als Arbeitsgrundlage und führe vor allen
 6. Wo liegt das Backup oder wie wird es erstellt?
 7. Wie werden Testdaten am Ende zurückgebaut?
 8. Sollen mehrere Rollen oder Sub-Agenten simuliert werden?
+9. Welche Zusatzwerkzeuge sind vorhanden und dürfen genutzt werden?
+
+Prüfe vor dem Start, ob Superpowers-Skills, Playwright/Browser-Tools, Caveman-Skills, Sub-Agent-/Multi-Agent-Funktionen, DEV-/Deploy-Skills oder passende MCP-Server vorhanden sind. Frage den Nutzer, welche davon du nutzen darfst. Für Live-Backups, Rückbau, Browserautomation und Sub-Agenten ist die Freigabe besonders wichtig.
 
 Lege anschließend einen lokalen Live-Play-Test-Ordner an, bevorzugt mit:
 

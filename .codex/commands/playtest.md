@@ -12,6 +12,9 @@ Nutze `SKILL.md` aus diesem Repository als Arbeitsgrundlage und führe die Start
 4. Welche Funktionen gehören in die Checkliste?
 5. Gibt es Testdaten oder Testzugänge?
 6. Sollen mehrere Rollen oder Sub-Agenten simuliert werden?
+7. Welche Zusatzwerkzeuge sind vorhanden und dürfen genutzt werden?
+
+Prüfe vor dem Start, ob Superpowers-Skills, Playwright/Browser-Tools, Caveman-Skills, Sub-Agent-/Multi-Agent-Funktionen, DEV-/Deploy-Skills oder passende MCP-Server vorhanden sind. Frage den Nutzer, welche davon du nutzen darfst.
 
 Lege anschließend einen lokalen Play-Test-Ordner an, bevorzugt mit:
 
