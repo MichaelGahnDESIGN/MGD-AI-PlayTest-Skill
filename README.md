@@ -19,11 +19,11 @@ Für Menschen, die mit KI-Agenten entwickeln und am Ende nicht nur hören wollen
 
 Der Skill ist für diese Umgebungen formuliert:
 
-- Claude Code
-- ChatGPT Codex
-- ChatGPT Codes
-- ChatGPT Cowork
-- andere agentische Coding- oder QA-Umgebungen, die Markdown-Skills lesen können
+- Claude Code (Claude Sonnet 4.6 oder höher; für riskante Live-/Architekturtests Opus 4.8 oder aktueller)
+- ChatGPT Codex (GPT-5-Codex oder neuestes Codex-Modell; für lange Live-Tests das stärkste verfügbare Codex-Modell)
+- ChatGPT Codes (GPT-5-Codex oder höher)
+- ChatGPT Cowork (GPT-5.5 oder aktuelles bestes Reasoning-/Coding-Modell)
+- andere agentische Coding- oder QA-Umgebungen, die Markdown-Skills lesen können (bestes verfügbares Coding-/Agentenmodell; für einfache lokale Tests reicht oft ein kleineres schnelles Modell)
 
 ## Schnellstart
 
