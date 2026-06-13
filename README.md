@@ -38,6 +38,7 @@ Dieser Skill führt einen PlayTest durch der die von KI Agenten erstellte Funkti
 
 # Agents
 Dieser Skill wurde in ChatGPT Codex und Clade Cowork sowie Claude Code getestet.
+Der Skill veröffentlicht oder speichtert keine Sensiblen Daten und der Ordner PLAYTEST und alles darin bekommt .gitignore und verbleibt immer nur lokal.
 
 # Beispiel Ablauf:
 
