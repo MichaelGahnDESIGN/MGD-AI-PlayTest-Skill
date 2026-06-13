@@ -21,7 +21,7 @@ Der Skill ist für diese Umgebungen formuliert:
 
 - Claude Code (Claude Sonnet 4.6 oder höher; für riskante Live-/Architekturtests Opus 4.8 oder aktueller)
 - ChatGPT Codex (GPT-5-Codex oder neuestes Codex-Modell; für lange Live-Tests das stärkste verfügbare Codex-Modell)
-- ChatGPT Codes (GPT-5-Codex oder höher)
+- ChatGPT Codex (GPT-5-Codex oder höher)
 - ChatGPT Cowork (GPT-5.5 oder aktuelles bestes Reasoning-/Coding-Modell)
 - andere agentische Coding- oder QA-Umgebungen, die Markdown-Skills lesen können (bestes verfügbares Coding-/Agentenmodell; für einfache lokale Tests reicht oft ein kleineres schnelles Modell)
 
@@ -209,14 +209,31 @@ scripts/init_playtest.py
 README.md
 LICENSE
 .gitignore
+.claude/commands/playtest.md
+.claude/commands/playtest-live.md
+.codex/commands/playtest.md
+.codex/commands/playtest-live.md
+docs/wiki/
 ```
 
 `scripts/init_playtest.py` kann der Agent nutzen, um die Play-Test-Struktur zuverlässig anzulegen.
 
+Parameter:
+
+| Parameter | Standard | Beschreibung |
+| --- | --- | --- |
+| `--mode` | `local` | `local` oder `live` |
+| `--root` | `.` | Projektwurzel |
+| `--base` | `PLAYTEST` | Name des Basisordners (z. B. `PlayTest`) |
+
 Beispiel:
 
 ```bash
-python3 scripts/init_playtest.py --mode live --root /pfad/zum/projekt
+python3 ~/.claude/skills/playtest/scripts/init_playtest.py --mode live --root /pfad/zum/projekt
+python3 ~/.codex/skills/playtest/scripts/init_playtest.py --mode live --root /pfad/zum/projekt
+
+# Eigener Basisordner:
+python3 ~/.claude/skills/playtest/scripts/init_playtest.py --mode local --root . --base PlayTest
 ```
 
 ## Optionale Kombinationen

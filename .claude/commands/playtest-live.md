@@ -21,7 +21,7 @@ Prüfe vor dem Start, ob Superpowers-Skills, Playwright/Browser-Tools, Caveman-S
 Lege anschließend einen lokalen Live-Play-Test-Ordner an, bevorzugt mit:
 
 ```bash
-python3 scripts/init_playtest.py --mode live --root .
+python3 ~/.claude/skills/playtest/scripts/init_playtest.py --mode live --root .
 ```
 
 Wenn das Script nicht verfügbar ist, lege die Struktur manuell an.

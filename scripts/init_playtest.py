@@ -93,11 +93,11 @@ FILES = {
 
 ## Offen
 
-- [ ] 
+- [ ]
 
 ## Erledigt
 
-- [ ] 
+- [x]
 """,
     "Test-Verbesserungsvorschlaege.md": """# Test-Verbesserungsvorschläge
 
