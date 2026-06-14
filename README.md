@@ -248,11 +248,31 @@ Empfohlen:
 - Sub-Agent- oder Multi-Agent-Workflows, wenn mehrere Nutzerrollen simuliert werden sollen.
 - Projektinterne DEV-/Deploy-Skills, wenn vor Live-Tests Backup, Restore, Staging oder Deployment geprüft werden müssen.
 
-Weitere Projekte von Michael Gahn DESIGN, die gut dazu passen:
+## Verwandte Projekte Von Michael Gahn DESIGN
 
-- [AI-Basic-Projektordner](https://github.com/MichaelGahnDESIGN/AI-Basic-Projektordner) für eine klare Projekt- und Dokumentationsstruktur.
-- [DEV-Skill](https://github.com/MichaelGahnDESIGN/DEV-Skill) für Entwicklung, Backup, Deploy, Tests und Abschlussprüfungen.
-- [Claude-Codex-MCP](https://github.com/MichaelGahnDESIGN/Claude-Codex-MCP) für Zusammenarbeit zwischen Claude, Codex und gemeinsamen Aufgaben.
+Der AI-PlayTest-Skill gehört zu einer kleinen Werkzeugfamilie für
+KI-gestützte Projektarbeit.
+
+- [AI-Basic-Projektordner](https://github.com/MichaelGahnDESIGN/AI-Basic-Projektordner)  
+  Eine saubere Projektvorlage mit Regeln, Dokumentation, Agentenstruktur und
+  Sicherheitsgrenzen. Sinnvoll als Basis für neue Projekte.
+
+- [AI Project Updater Skill](https://github.com/MichaelGahnDESIGN/AI-Project-Updater-Skill)  
+  Ein geführter Assistent für lokale Staging-Umgebungen, Docker-Planung,
+  Update-Vorbereitung und sichere Staging-zu-Live-Abläufe. Das Repository ist
+  während der Entwicklung zunächst privat.
+
+- [DEV-Skill](https://github.com/MichaelGahnDESIGN/DEV-Skill)  
+  Ein projektneutraler Skill für Projekt-Sync, Tests, GitHub-Abgleich,
+  Deploy-Vorbereitung, Backups und Abschlussberichte.
+
+- [ProjectClean-Skill](https://github.com/MichaelGahnDESIGN/ProjectClean-Skill)  
+  Ein Abschluss- und Aufräum-Skill für Versionen, Tests, Commits, Backups,
+  Dokumentation und vorsichtiges Cleanup.
+
+- [Claude-Codex-MCP](https://github.com/MichaelGahnDESIGN/Claude-Codex-MCP)  
+  Ein lokales MCP-System für Aufgaben, Chat und Übergaben zwischen Claude,
+  Codex und weiteren KI-Agenten.
 
 ## Wiki und Beispiele
 
